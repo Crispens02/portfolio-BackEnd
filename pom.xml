@@ -94,6 +94,11 @@
             <version>3.0.0</version>
             <type>module</type>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <type>jar</type>
+        </dependency>
     </dependencies>
    
     <build>

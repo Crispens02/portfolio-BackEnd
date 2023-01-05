@@ -1,41 +1,47 @@
 package com.portfolio.ProyectoFinal.service;
 
-import com.portfolio.ProyectoFinal.Interface.IProyectoService;
+
+
 import com.portfolio.ProyectoFinal.entity.Proyecto;
-import com.portfolio.ProyectoFinal.repository.ProyectoRepository;
+import com.portfolio.ProyectoFinal.repository.RProyecto;
+
 import java.util.List;
+import java.util.Optional;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ProyectoService implements IProyectoService{
-    
+@Transactional
+public class ProyectoService {
     @Autowired
-    public ProyectoRepository repository;
-
-    @Override
-    public List<Proyecto> obtenerProyecto() {
-        return repository.findAll();
-    }
-
-    @Override
-    public Proyecto crearProyecto(Proyecto proyecto) {
-        return repository.save(proyecto);
-    }
-
-    @Override
-    public void borrarProyecto(Integer id) {
-        repository.deleteById(id);
-    }
-
-    @Override
-    public Proyecto obtenerProyecto(Integer id) {
-        return repository.findById(id).orElse(null);
-    }
-
-    @Override
-    public void modificarProyecto(Proyecto proyecto) {
-        repository.save(proyecto);
+    RProyecto rProyecto;
+    
+    public List<Proyecto> list(){
+        return rProyecto.findAll();
     }
     
+    public Optional<Proyecto> getOne(int id){
+        return rProyecto.findById(id);
+    }
+    
+    public Optional<Proyecto> getByNombreP(String nombreP){
+        return rProyecto.findByNombreP(nombreP);
+    }
+    
+    public void save(Proyecto proyecto){
+        rProyecto.save(proyecto);
+    }
+    
+    public void delete(int id){
+        rProyecto.deleteById(id);
+    }
+    
+    public boolean existsById(int id){
+        return rProyecto.existsById(id);
+    }
+    
+    public boolean existsByNombreP(String nombreP){
+        return rProyecto.existsByNombreP(nombreP);
+    }
 }
