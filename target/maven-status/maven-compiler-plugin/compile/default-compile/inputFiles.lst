@@ -24,6 +24,7 @@ C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfoli
 C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\Security\jwt\JwtProvider.java
 C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\Security\Controller\AuthController.java
 C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\Security\Service\UserDetailsImpl.java
+C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\interface\IExperienciaService.java
 C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\Security\Repository\IUsuarioRepository.java
 C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\entity\Proyecto.java
 C:\Users\Cristian\Desktop\com.portfolio.ProyectoFinal\src\main\java\com\portfolio\ProyectoFinal\Security\jwt\JwtTokenFilter.java
