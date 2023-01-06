@@ -30,6 +30,7 @@ com\portfolio\ProyectoFinal\Security\Dto\LoginUsuario.class
 com\portfolio\ProyectoFinal\Security\jwt\JwtEntryPoint.class
 com\portfolio\ProyectoFinal\controller\CHys.class
 com\portfolio\ProyectoFinal\entity\Persona.class
+com\portfolio\ProyectoFinal\WebConfig.class
 com\portfolio\ProyectoFinal\repository\RExperiencia.class
 com\portfolio\ProyectoFinal\repository\RHys.class
 com\portfolio\ProyectoFinal\service\SEducacion.class
