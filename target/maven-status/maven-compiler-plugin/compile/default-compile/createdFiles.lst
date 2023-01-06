@@ -1,6 +1,5 @@
 com\portfolio\ProyectoFinal\Security\Enums\RolNombre.class
 com\portfolio\ProyectoFinal\controller\PersonaController.class
-com\portfolio\ProyectoFinal\Interface\IExperienciaService.class
 com\portfolio\ProyectoFinal\repository\RProyecto.class
 com\portfolio\ProyectoFinal\service\SExperiencia.class
 com\portfolio\ProyectoFinal\DTO\dtoHys.class
