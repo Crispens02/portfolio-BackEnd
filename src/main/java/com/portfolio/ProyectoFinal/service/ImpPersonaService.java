@@ -7,7 +7,7 @@ package com.portfolio.ProyectoFinal.service;
 
 import com.portfolio.ProyectoFinal.entity.Persona;
 
-import com.portfolio.ProyectoFinal.repository.IPersonaRepository;
+import com.portfolio.ProyectoFinal.Repository.IPersonaRepository;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;

@@ -1,4 +1,4 @@
-package com.portfolio.ProyectoFinal.repository;
+package com.portfolio.ProyectoFinal.Repository;
 
 import com.portfolio.ProyectoFinal.entity.Proyecto;
 import java.util.Optional;

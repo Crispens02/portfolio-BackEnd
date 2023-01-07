@@ -2,7 +2,7 @@ package com.portfolio.ProyectoFinal.service;
 
 
 import com.portfolio.ProyectoFinal.entity.Educacion;
-import com.portfolio.ProyectoFinal.repository.REducacion;
+import com.portfolio.ProyectoFinal.Repository.REducacion;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;

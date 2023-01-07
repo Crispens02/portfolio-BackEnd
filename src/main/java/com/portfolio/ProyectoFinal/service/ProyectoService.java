@@ -3,7 +3,7 @@ package com.portfolio.ProyectoFinal.service;
 
 
 import com.portfolio.ProyectoFinal.entity.Proyecto;
-import com.portfolio.ProyectoFinal.repository.RProyecto;
+import com.portfolio.ProyectoFinal.Repository.RProyecto;
 
 import java.util.List;
 import java.util.Optional;
