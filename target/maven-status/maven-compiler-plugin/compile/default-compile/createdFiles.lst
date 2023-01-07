@@ -17,7 +17,6 @@ com\portfolio\ProyectoFinal\Security\Service\RolService.class
 com\portfolio\ProyectoFinal\service\ProyectoService.class
 com\portfolio\ProyectoFinal\controller\CEducacion.class
 com\portfolio\ProyectoFinal\Security\Repository\IUsuarioRepository.class
-.netbeans_automatic_build
 com\portfolio\ProyectoFinal\entity\Proyecto.class
 com\portfolio\ProyectoFinal\Security\Entity\Rol.class
 com\portfolio\ProyectoFinal\Security\Dto\NuevoUsuario.class
