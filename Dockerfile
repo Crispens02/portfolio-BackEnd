@@ -17,4 +17,4 @@ WORKDIR /app
 ENV JAR_FILE=com.portfolio.ProyectoFinal-0.0.1-SNAPSHOT.jar
 
 # Ejecuta el archivo JAR al iniciar el contenedor
-ENTRYPOINT ["java","-jar","/$JAR_FILE"]
+ENTRYPOINT ["java","-jar","com.portfolio.ProyectoFinal-0.0.1-SNAPSHOT.jar"]
