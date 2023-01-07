@@ -7,6 +7,7 @@ com\portfolio\ProyectoFinal\Security\Entity\Usuario.class
 com\portfolio\ProyectoFinal\Security\MainSecurity.class
 com\portfolio\ProyectoFinal\Application.class
 com\portfolio\ProyectoFinal\repository\REducacion.class
+com\portfolio\ProyectoFinal\repository\RXp.class
 com\portfolio\ProyectoFinal\Security\Entity\UsuarioPrincipal.class
 com\portfolio\ProyectoFinal\controller\CProyecto.class
 com\portfolio\ProyectoFinal\entity\Educacion.class
@@ -31,7 +32,6 @@ com\portfolio\ProyectoFinal\Security\jwt\JwtEntryPoint.class
 com\portfolio\ProyectoFinal\controller\CHys.class
 com\portfolio\ProyectoFinal\entity\Persona.class
 com\portfolio\ProyectoFinal\WebConfig.class
-com\portfolio\ProyectoFinal\repository\RExperiencia.class
 com\portfolio\ProyectoFinal\repository\RHys.class
 com\portfolio\ProyectoFinal\service\SEducacion.class
 com\portfolio\ProyectoFinal\repository\IPersonaRepository.class

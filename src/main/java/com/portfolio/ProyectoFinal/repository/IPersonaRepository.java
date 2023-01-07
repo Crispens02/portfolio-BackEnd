@@ -1,6 +1,6 @@
 package com.portfolio.ProyectoFinal.repository;
 
-import com.portfolio.ProyectoFinal.entity.Educacion;
+
 import com.portfolio.ProyectoFinal.entity.Persona;
 import java.util.Optional;
 import org.springframework.data.jpa.repository.JpaRepository;
