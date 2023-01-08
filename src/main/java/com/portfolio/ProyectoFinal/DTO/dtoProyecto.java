@@ -10,7 +10,8 @@ public class dtoProyecto {
     @NotBlank
     private String imgP;
 
-    
+      public dtoProyecto() {
+    }
     public dtoProyecto(String nombreP,  String imgP) {
         this.nombreP = nombreP;
        

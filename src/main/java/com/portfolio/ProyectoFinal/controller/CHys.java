@@ -1,7 +1,5 @@
 package com.portfolio.ProyectoFinal.controller;
 
-
-
 import com.portfolio.ProyectoFinal.DTO.dtoHys;
 import com.portfolio.ProyectoFinal.entity.Hys;
 import com.portfolio.ProyectoFinal.Security.Controller.Mensaje;
@@ -22,7 +20,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://frontendcrispens02.web.app/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://frontendcrispens02.web.app/"} )
+//@CrossOrigin(origins = "https://frontendcrispens02.web.app/")
 
 @RequestMapping("/hyss")
 public class CHys {
